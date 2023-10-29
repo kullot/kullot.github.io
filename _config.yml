@@ -54,8 +54,7 @@ description:
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kullot.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
-
+favicon: "/assets/images/icon-hacker.png" # the favicon for your site
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
@@ -156,12 +155,14 @@ yat:
 #   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 
-search: true
+# search: true
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
   - index.html
+  - home.html
   - about.html
+  # - test.html
   - archives.html
   - categories.html
   - tags.html
@@ -246,7 +247,7 @@ header_pages:
 #   follow_site_theme: true
 
 # Build settings
-# highlighter: none
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
@@ -257,4 +258,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-search
+  # - jekyll-search

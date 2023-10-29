@@ -1,4 +1,4 @@
 home:
   heading: "개발 블로그 "
   subheading: "ML/DL"
-  banner: "Your image url"
+  banner: "/assets/images/banners/ai-deeplearning-banner.png"
